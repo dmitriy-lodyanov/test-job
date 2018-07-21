@@ -1,0 +1,27 @@
+.CompaniesTreeView {
+  margin-top: 20px;
+
+  &_TreeViewCompany {
+    margin-bottom: 10px;
+
+    &-header {
+      background-color: #f0f0f0;
+      border: 1px solid gray;
+      padding: 6px;
+
+      > button {
+        background-color: #c0c0c0;
+        font-size: 12px;
+        cursor: pointer;
+        padding: 6px;
+        border: none;
+        margin-left: 20px;
+      }
+    }
+
+    &-limit-title {
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+  }
+}

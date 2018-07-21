@@ -1,0 +1,26 @@
+.Dropdown {
+  text-align: left;
+  position: relative;
+
+  &-title {
+    cursor: pointer;
+
+    &:hover {
+      color: #404040;
+    }
+  }
+
+  &-menu {
+    display: none;
+  }
+
+  &.open &-menu {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    z-index: 10;
+    border: 1px solid gray;
+  }
+}

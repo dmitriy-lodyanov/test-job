@@ -1,0 +1,75 @@
+.Table {
+  width: 100%;
+  border-spacing: 0;
+  font-size: 11px;
+  border-collapse: collapse;
+  position: relative;
+
+  th,
+  td {
+    position: relative;
+    padding: 4px;
+    border: 1px solid #a0a0a0;
+  }
+
+  th {
+    background: #f0f0f0;
+    user-select: none;
+  }
+
+  td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 0;
+  }
+
+  .Dropdown-title {
+    text-align: left;
+  }
+
+  input {
+    position: relative;
+    display: block;
+    margin: 4px auto;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    border: none;
+    background-color: #c0c0c0;
+    padding: 6px;
+    width: 50px;
+    margin: 6px auto;
+    display: block;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  &-sort-title {
+    display: block;
+    line-height: 10px;
+    height: 10px;
+    margin-top: 4px;
+  }
+
+  &-dropdown-item {
+    display: block;
+    padding: 4px 12px;
+    text-align: center;
+
+    & + & {
+      border-top: 1px solid gray;
+    }
+
+    button {
+      padding: 2px;
+      font-size: 9px;
+      display: inline-block;
+    }
+  }
+
+  &-dropdown-item button + button {
+    margin-left: 4px;
+  }
+}

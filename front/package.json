@@ -1,0 +1,26 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "fontawesome": "^4.7.2",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "node-sass": "^4.9.2",
+    "react": "^16.4.1",
+    "react-app-rewired": "^1.5.2",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewire-sass-modules": "^1.1.5",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "sass-loader": "^7.0.3"
+  },
+  "proxy": "http://localhost:58099"
+}
